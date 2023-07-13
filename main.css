@@ -1,0 +1,90 @@
+/* Basic reset styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page layout styles */
+  /**HOME PAGE**/
+  header {
+    background-color: red;
+    color: blue;
+    padding: 20px;
+  }
+ p{
+background-color: turquoise;
+color: purple;
+padding: 10px;
+ }
+
+  h1{
+    padding: 20px;
+    color: yellow;
+  }
+  
+  h2{
+    padding: 10px;
+    color: orange;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: green;
+    padding: 20px;
+  }
+
+  /* Basic reset styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page layout styles */
+  /**ABOUT PAGE**/
+  header {
+    background-color: red;
+    color: blue;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: green;
+    padding: 20px;
+  }
+  
+  /* Animation styles */
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .fadeIn {
+    opacity:  m;
+    animation: fadeInAnimation 1s ease-in forwards;
+  }
+  
+  .slideIn {
+    animation: slideInAnimation 1s ease-in-out;
+  }
+  
+  /* Apply animations to elements */
+  h1.fadeIn,
+  p.fadeIn {
+    animation-delay: 0.5s;
+  }
+  
+  h1.slideIn,
+  p.slideIn {
+    animation-delay: 0.5s;
+  }
